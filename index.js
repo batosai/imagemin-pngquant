@@ -1,7 +1,7 @@
 'use strict';
 const execBuffer = require('exec-buffer');
 const isPng = require('is-png');
-const pngquant = require('pngquant-bin');
+const pngquant = 'pngquant';
 
 module.exports = opts => buf => {
 	opts = Object.assign({}, opts);
@@ -52,9 +52,6 @@ module.exports = opts => buf => {
 		bin: pngquant,
 		args
 	}).catch(err => {
-		if (err.code === 99) {
-			return buf;
-		}
 		err.message = err.stderr || err.message;
 		throw err;
 	});

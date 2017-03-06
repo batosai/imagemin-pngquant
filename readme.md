@@ -1,6 +1,8 @@
-# imagemin-pngquant [![Build Status](https://travis-ci.org/imagemin/imagemin-pngquant.svg?branch=master)](https://travis-ci.org/imagemin/imagemin-pngquant) [![Build status](https://ci.appveyor.com/api/projects/status/w60auppnbiwgu9gj?svg=true)](https://ci.appveyor.com/project/kevva/imagemin-pngquant)
+# imagemin-pngquant
 
 > pngquant imagemin plugin
+
+Use local pngquant
 
 
 ## Install
